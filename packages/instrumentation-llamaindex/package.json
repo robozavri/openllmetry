@@ -37,7 +37,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@opentelemetry/core": "^1.29.0",
+    "@opentelemetry/core": "^2.0.1",
     "@opentelemetry/instrumentation": "^0.56.0",
     "@opentelemetry/semantic-conventions": "^1.28.0",
     "@ai-analytic-hub/ai-semantic-conventions": "^0.11.6",
