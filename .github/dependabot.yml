@@ -65,8 +65,18 @@ updates:
     labels:
       - "sample-app"
   - package-ecosystem: "npm"
-    directory: "/packages/traceloop-sdk"
+    directory: "/packages/ai-analytic-hub-sdk"
     schedule:
       interval: "weekly"
+    open-pull-requests-limit: 10
+    reviewers:
+      - "ai-analytic-hub"
+    assignees:
+      - "ai-analytic-hub"
+    commit-message:
+      prefix: "deps"
+      prefix-development: "deps-dev"
+      include: "scope"
     labels:
-      - "traceloop-sdk"
+      - "dependencies"
+      - "ai-analytic-hub-sdk"

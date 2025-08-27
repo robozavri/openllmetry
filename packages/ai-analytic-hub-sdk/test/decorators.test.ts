@@ -29,7 +29,7 @@ import { Polly, setupMocha as setupPolly } from "@pollyjs/core";
 import NodeHttpAdapter from "@pollyjs/adapter-node-http";
 import FetchAdapter from "@pollyjs/adapter-fetch";
 import FSPersister from "@pollyjs/persister-fs";
-import { SpanAttributes } from "@traceloop/ai-semantic-conventions";
+import { SpanAttributes } from "@ai-analytic-hub/ai-semantic-conventions";
 import { ChatCompletionMessageParam } from "openai/resources/index.mjs";
 
 const memoryExporter = new InMemorySpanExporter();

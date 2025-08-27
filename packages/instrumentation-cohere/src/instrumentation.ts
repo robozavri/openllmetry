@@ -33,7 +33,7 @@ import {
   CONTEXT_KEY_ALLOW_TRACE_CONTENT,
   LLMRequestTypeValues,
   SpanAttributes,
-} from "@traceloop/ai-semantic-conventions";
+} from "@ai-analytic-hub/ai-semantic-conventions";
 import { version } from "../package.json";
 
 type LLM_COMPLETION_TYPE = "chat" | "completion" | "rerank";
@@ -41,7 +41,7 @@ export class CohereInstrumentation extends InstrumentationBase {
   declare protected _config: CohereInstrumentationConfig;
 
   constructor(config: CohereInstrumentationConfig = {}) {
-    super("@traceloop/instrumentation-cohere", version, config);
+    super("@ai-analytic-hub/instrumentation-cohere", version, config);
   }
 
   public override setConfig(config: CohereInstrumentationConfig = {}) {

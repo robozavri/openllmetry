@@ -30,7 +30,7 @@ import {
 import {
   CONTEXT_KEY_ALLOW_TRACE_CONTENT,
   SpanAttributes,
-} from "@traceloop/ai-semantic-conventions";
+} from "@ai-analytic-hub/ai-semantic-conventions";
 import { AnthropicInstrumentationConfig } from "./types";
 import { version } from "../package.json";
 import type * as anthropic from "@anthropic-ai/sdk";
@@ -51,7 +51,7 @@ export class AnthropicInstrumentation extends InstrumentationBase {
   declare protected _config: AnthropicInstrumentationConfig;
 
   constructor(config: AnthropicInstrumentationConfig = {}) {
-    super("@traceloop/instrumentation-anthropic", version, config);
+    super("@ai-analytic-hub/instrumentation-anthropic", version, config);
   }
 
   public override setConfig(config: AnthropicInstrumentationConfig = {}) {

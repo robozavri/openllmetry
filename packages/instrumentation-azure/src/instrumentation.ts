@@ -31,7 +31,7 @@ import {
 import {
   CONTEXT_KEY_ALLOW_TRACE_CONTENT,
   SpanAttributes,
-} from "@traceloop/ai-semantic-conventions";
+} from "@ai-analytic-hub/ai-semantic-conventions";
 import { AzureOpenAIInstrumentationConfig } from "./types";
 import type {
   ChatCompletions,
@@ -48,7 +48,7 @@ export class AzureOpenAIInstrumentation extends InstrumentationBase {
   declare protected _config: AzureOpenAIInstrumentationConfig;
 
   constructor(config: AzureOpenAIInstrumentationConfig = {}) {
-    super("@traceloop/instrumentation-azure", version, config);
+    super("@ai-analytic-hub/instrumentation-azure", version, config);
   }
 
   public override setConfig(config: AzureOpenAIInstrumentationConfig = {}) {

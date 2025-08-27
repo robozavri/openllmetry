@@ -1,11 +1,11 @@
 {
-  "name": "@traceloop/instrumentation-vertexai",
+  "name": "@ai-analytic-hub/instrumentation-vertexai",
   "version": "0.11.6",
   "description": "Google's VertexAI Instrumentation",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
-  "repository": "traceloop/openllmetry-js",
+  "repository": "ai-analytic-hub/openllmetry-js",
   "scripts": {
     "build": "rollup -c",
     "lint": "eslint .",
@@ -40,13 +40,13 @@
     "@opentelemetry/core": "^1.29.0",
     "@opentelemetry/instrumentation": "^0.56.0",
     "@opentelemetry/semantic-conventions": "^1.28.0",
-    "@traceloop/ai-semantic-conventions": "^0.11.6",
+    "@ai-analytic-hub/ai-semantic-conventions": "^0.11.6",
     "tslib": "^2.8.1"
   },
   "devDependencies": {
     "@google-cloud/aiplatform": "^3.34.0",
     "@google-cloud/vertexai": "^1.9.2"
   },
-  "homepage": "https://github.com/traceloop/openllmetry-js/tree/main/packages/instrumentation-openai",
+  "homepage": "https://github.com/ai-analytic-hub/openllmetry-js/tree/main/packages/instrumentation-openai",
   "gitHead": "ef1e70d6037f7b5c061056ef2be16e3f55f02ed5"
 }

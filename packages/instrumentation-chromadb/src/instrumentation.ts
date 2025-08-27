@@ -33,14 +33,14 @@ import type * as chromadb from "chromadb";
 //   Events,
 //   SpanAttributes,
 //   EventAttributes,
-// } from "@traceloop/ai-semantic-conventions";
+// } from "@ai-analytic-hub/ai-semantic-conventions";
 import { version } from "../package.json";
 
 export class ChromaDBInstrumentation extends InstrumentationBase {
   declare protected _config: ChromaDBInstrumentationConfig;
 
   constructor(config: ChromaDBInstrumentationConfig = {}) {
-    super("@traceloop/instrumentation-chromadb", version, config);
+    super("@ai-analytic-hub/instrumentation-chromadb", version, config);
   }
 
   public override setConfig(config: ChromaDBInstrumentationConfig = {}) {

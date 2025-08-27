@@ -31,7 +31,7 @@ import { AIPlatformInstrumentationConfig } from "./types";
 import {
   CONTEXT_KEY_ALLOW_TRACE_CONTENT,
   SpanAttributes,
-} from "@traceloop/ai-semantic-conventions";
+} from "@ai-analytic-hub/ai-semantic-conventions";
 import type * as aiplatform from "@google-cloud/aiplatform";
 import type { CallOptions, Callback } from "google-gax";
 import { version } from "../package.json";
@@ -40,7 +40,7 @@ export class AIPlatformInstrumentation extends InstrumentationBase {
   declare protected _config: AIPlatformInstrumentationConfig;
 
   constructor(config: AIPlatformInstrumentationConfig = {}) {
-    super("@traceloop/instrumentation-vertexai", version, config);
+    super("@ai-analytic-hub/instrumentation-vertexai", version, config);
   }
 
   public override setConfig(config: AIPlatformInstrumentationConfig = {}) {

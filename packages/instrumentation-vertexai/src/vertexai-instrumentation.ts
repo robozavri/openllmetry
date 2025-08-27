@@ -31,7 +31,7 @@ import { VertexAIInstrumentationConfig } from "./types";
 import {
   CONTEXT_KEY_ALLOW_TRACE_CONTENT,
   SpanAttributes,
-} from "@traceloop/ai-semantic-conventions";
+} from "@ai-analytic-hub/ai-semantic-conventions";
 import type * as vertexAI from "@google-cloud/vertexai";
 import { version } from "../package.json";
 
@@ -39,7 +39,7 @@ export class VertexAIInstrumentation extends InstrumentationBase {
   declare protected _config: VertexAIInstrumentationConfig;
 
   constructor(config: VertexAIInstrumentationConfig = {}) {
-    super("@traceloop/instrumentation-vertexai", version, config);
+    super("@ai-analytic-hub/instrumentation-vertexai", version, config);
   }
 
   public override setConfig(config: VertexAIInstrumentationConfig = {}) {

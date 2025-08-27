@@ -32,7 +32,7 @@ import { version } from "../package.json";
 import {
   SpanAttributes,
   EventAttributes,
-} from "@traceloop/ai-semantic-conventions";
+} from "@ai-analytic-hub/ai-semantic-conventions";
 
 const UPSERT = "upsert";
 const DELETE = "delete";
@@ -51,7 +51,7 @@ export class QdrantInstrumentation extends InstrumentationBase<any> {
   declare protected _config: QdrantInstrumentationConfig;
 
   constructor(config: QdrantInstrumentationConfig = {}) {
-    super("@traceloop/instrumentation-qdrant", version, config);
+    super("@ai-analytic-hub/instrumentation-qdrant", version, config);
   }
 
   public override setConfig(config: QdrantInstrumentationConfig = {}) {

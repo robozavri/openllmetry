@@ -24,7 +24,7 @@ import {
 import {
   CONTEXT_KEY_ALLOW_TRACE_CONTENT,
   SpanAttributes,
-} from "@traceloop/ai-semantic-conventions";
+} from "@ai-analytic-hub/ai-semantic-conventions";
 import { OpenAIInstrumentationConfig } from "./types";
 import type {
   ChatCompletion,
@@ -45,7 +45,7 @@ export class OpenAIInstrumentation extends InstrumentationBase {
   declare protected _config: OpenAIInstrumentationConfig;
 
   constructor(config: OpenAIInstrumentationConfig = {}) {
-    super("@traceloop/instrumentation-openai", version, config);
+    super("@ai-analytic-hub/instrumentation-openai", version, config);
   }
 
   public override setConfig(config: OpenAIInstrumentationConfig = {}) {

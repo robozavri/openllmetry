@@ -1,9 +1,9 @@
 <p align="center">
-<a href="https://www.traceloop.com/openllmetry#gh-light-mode-only">
-<img width="600" src="https://raw.githubusercontent.com/traceloop/openllmetry/main/img/logo-light.png">
+<a href="https://www.ai-analytic-hub.com/openllmetry#gh-light-mode-only">
+<img width="600" src="https://raw.githubusercontent.com/ai-analytic-hub/openllmetry/main/img/logo-light.png">
 </a>
-<a href="https://www.traceloop.com/openllmetry#gh-dark-mode-only">
-<img width="600" src="https://raw.githubusercontent.com/traceloop/openllmetry/main/img/logo-dark.png">
+<a href="https://www.ai-analytic-hub.com/openllmetry#gh-dark-mode-only">
+<img width="600" src="https://raw.githubusercontent.com/ai-analytic-hub/openllmetry/main/img/logo-dark.png">
 </a>
 </p>
 <h1 align="center">For Javascript / Typescript</h1>
@@ -11,37 +11,37 @@
   <p align="center">Open-source observability for your LLM application</p>
 </p>
 <h4 align="center">
-    Get started with <a href="https://traceloop.com/docs/openllmetry/getting-started-ts"><strong>Node.js </strong></a>
-    or <a href="https://traceloop.com/docs/openllmetry/getting-started-nextjs"><strong>Next.js</strong></a> »
+    Get started with <a href="https://ai-analytic-hub.com/docs/openllmetry/getting-started-ts"><strong>Node.js </strong></a>
+    or <a href="https://ai-analytic-hub.com/docs/openllmetry/getting-started-nextjs"><strong>Next.js</strong></a> »
     <br />
     <br />
-  <a href="https://traceloop.com/slack">Slack</a> |
-  <a href="https://traceloop.com/docs/openllmetry/introduction">Docs</a> |
-  <a href="https://www.traceloop.com/openllmetry">Website</a>
+  <a href="https://ai-analytic-hub.com/slack">Slack</a> |
+  <a href="https://ai-analytic-hub.com/docs/openllmetry/introduction">Docs</a> |
+  <a href="https://www.ai-analytic-hub.com/openllmetry">Website</a>
 </h4>
 
 <h4 align="center">
-   <a href="https://www.npmjs.com/package/@traceloop/node-server-sdk">
+   <a href="https://www.npmjs.com/package/@ai-analytic-hub/node-server-sdk">
     <img src="https://badge.fury.io/js/@traceloop%2Fnode-server-sdk.svg">
   </a>
-   <a href="https://github.com/traceloop/openllmetry-js/blob/main/LICENSE">
+   <a href="https://github.com/ai-analytic-hub/openllmetry-js/blob/main/LICENSE">
     <img src="https://img.shields.io/badge/license-Apache 2.0-blue.svg" alt="OpenLLMetry JS is released under the Apache-2.0 License">
   </a>
-  <a href="https://github.com/traceloop/openllmetry-js/actions/workflows/ci.yml">
-  <img src="https://github.com/traceloop/openllmetry-js/actions/workflows/ci.yml/badge.svg">
+  <a href="https://github.com/ai-analytic-hub/openllmetry-js/actions/workflows/ci.yml">
+  <img src="https://github.com/ai-analytic-hub/openllmetry-js/actions/workflows/ci.yml/badge.svg">
   </a>
-  <a href="https://www.ycombinator.com/companies/traceloop"><img src="https://img.shields.io/website?color=%23f26522&down_message=Y%20Combinator&label=Backed&logo=ycombinator&style=flat-square&up_message=Y%20Combinator&url=https%3A%2F%2Fwww.ycombinator.com"></a>
-  <a href="https://github.com/traceloop/openllmetry-js/blob/main/CONTRIBUTING.md">
+  <a href="https://www.ycombinator.com/companies/ai-analytic-hub"><img src="https://img.shields.io/website?color=%23f26522&down_message=Y%20Combinator&label=Backed&logo=ycombinator&style=flat-square&up_message=Y%20Combinator&url=https%3A%2F%2Fwww.ycombinator.com"></a>
+  <a href="https://github.com/ai-analytic-hub/openllmetry-js/blob/main/CONTRIBUTING.md">
     <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen" alt="PRs welcome!" />
   </a>
-  <a href="https://github.com/traceloop/openllmetry-js/issues">
+  <a href="https://github.com/ai-analytic-hub/openllmetry-js/issues">
     <img src="https://img.shields.io/github/commit-activity/m/traceloop/openllmetry-js" alt="git commit activity" />
   </a>
-  <a href="https://traceloop.com/slack">
+  <a href="https://ai-analytic-hub.com/slack">
     <img src="https://img.shields.io/badge/chat-on%20Slack-blueviolet" alt="Slack community channel" />
   </a>
-  <a href="https://twitter.com/traceloopdev">
-    <img src="https://img.shields.io/badge/follow-%40traceloopdev-1DA1F2?logo=twitter&style=social" alt="Traceloop Twitter" />
+  <a href="https://twitter.com/ai-analytic-hub">
+    <img src="https://img.shields.io/badge/follow-%40traceloopdev-1DA1F2?logo=twitter&style=social" alt="AI Analytic Hub Twitter" />
   </a>
 </h4>
 
@@ -50,28 +50,28 @@ Our semantic conventions are now part of OpenTelemetry! Join the [discussion](ht
 
 OpenLLMetry-JS is a set of extensions built on top of [OpenTelemetry](https://opentelemetry.io/) that gives you complete observability over your LLM application. Because it uses OpenTelemetry under the hood, it can be connected to your existing observability solutions - Datadog, Honeycomb, and others.
 
-It's built and maintained by Traceloop under the Apache 2.0 license.
+It's built and maintained by AI Analytic Hub under the Apache 2.0 license.
 
-The repo contains standard OpenTelemetry instrumentations for LLM providers and Vector DBs, as well as a Traceloop SDK that makes it easy to get started with OpenLLMetry-JS, while still outputting standard OpenTelemetry data that can be connected to your observability stack.
+The repo contains standard OpenTelemetry instrumentations for LLM providers and Vector DBs, as well as a AI Analytic Hub SDK that makes it easy to get started with OpenLLMetry-JS, while still outputting standard OpenTelemetry data that can be connected to your observability stack.
 If you already have OpenTelemetry instrumented, you can just add any of our instrumentations directly.
 
 ## 🚀 Getting Started
 
 The easiest way to get started is to use our SDK.
-For a complete guide, go to our [docs](https://traceloop.com/docs/openllmetry/getting-started-ts).
+For a complete guide, go to our [docs](https://ai-analytic-hub.com/docs/openllmetry/getting-started-ts).
 
 Install the SDK:
 
 ```shell
-npm install --save @traceloop/node-server-sdk
+npm install --save @ai-analytic-hub/node-server-sdk
 ```
 
 Then, to start instrumenting your code, just add these 2 lines to your code:
 
 ```js
-import * as traceloop from "@traceloop/node-server-sdk";
+import * as traceloop from "@ai-analytic-hub/node-server-sdk";
 
-traceloop.initialize();
+aiAnalyticHub.initialize();
 ```
 
 Make sure to `import` the SDK before importing any LLM module.
@@ -80,7 +80,7 @@ That's it. You're now tracing your code with OpenLLMetry-JS!
 If you're running this locally, you may want to disable batch sending, so you can see the traces immediately:
 
 ```js
-traceloop.initialize({ disableBatch: true });
+aiAnalyticHub.initialize({ disableBatch: true });
 ```
 
 Now, you need to decide where to export the traces to.
@@ -98,7 +98,7 @@ Now, you need to decide where to export the traces to.
 - ✅ [Splunk](https://www.traceloop.com/docs/openllmetry/integrations/splunk)
 - ✅ [OpenTelemetry Collector](https://www.traceloop.com/docs/openllmetry/integrations/otel-collector)
 
-See [our docs](https://traceloop.com/docs/openllmetry/integrations/exporting) for instructions on connecting to each one.
+See [our docs](https://ai-analytic-hub.com/docs/openllmetry/integrations/exporting) for instructions on connecting to each one.
 
 ## 🪗 What do we instrument?
 
@@ -130,16 +130,16 @@ OpenLLMetry-JS can instrument everything that [OpenTelemetry already instruments
 
 ## 🌱 Contributing
 
-Whether it's big or small, we love contributions ❤️ Check out our guide to see how to [get started](https://traceloop.com/docs/openllmetry/contributing/overview).
+Whether it's big or small, we love contributions ❤️ Check out our guide to see how to [get started](https://ai-analytic-hub.com/docs/openllmetry/contributing/overview).
 
 Not sure where to get started? You can:
 
-- [Book a free pairing session with one of our teammates](mailto:nir@traceloop.com?subject=Pairing%20session&body=I'd%20like%20to%20do%20a%20pairing%20session!)!
-- Join our <a href="https://traceloop.com/slack">Slack</a>, and ask us any questions there.
+- [Book a free pairing session with one of our teammates](mailto:contact@ai-analytic-hub.com?subject=Pairing%20session&body=I'd%20like%20to%20do%20a%20pairing%20session!)!
+- Join our <a href="https://ai-analytic-hub.com/slack">Slack</a>, and ask us any questions there.
 
 ## 💚 Community & Support
 
-- [Slack](https://traceloop.com/slack) (For live discussion with the community and the Traceloop team)
-- [GitHub Discussions](https://github.com/traceloop/openllmetry-js/discussions) (For help with building and deeper conversations about features)
-- [GitHub Issues](https://github.com/traceloop/openllmetry-js/issues) (For any bugs and errors you encounter using OpenLLMetry)
-- [Twitter](https://twitter.com/traceloopdev) (Get news fast)
+- [Slack](https://ai-analytic-hub.com/slack) (For live discussion with the community and the Traceloop team)
+- [GitHub Discussions](https://github.com/ai-analytic-hub/openllmetry-js/discussions) (For help with building and deeper conversations about features)
+- [GitHub Issues](https://github.com/ai-analytic-hub/openllmetry-js/issues) (For any bugs and errors you encounter using OpenLLMetry)
+- [Twitter](https://twitter.com/ai-analytic-hub) (Get news fast)

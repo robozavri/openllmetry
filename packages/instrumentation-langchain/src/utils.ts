@@ -3,7 +3,7 @@ import { safeExecuteInTheMiddle } from "@opentelemetry/instrumentation";
 import {
   TraceloopSpanKindValues,
   SpanAttributes,
-} from "@traceloop/ai-semantic-conventions";
+} from "@ai-analytic-hub/ai-semantic-conventions";
 
 export function genericWrapper(
   tracer: () => Tracer,

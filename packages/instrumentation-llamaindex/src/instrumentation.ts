@@ -31,14 +31,14 @@ import type {
   LLM,
   BaseRetriever,
 } from "llamaindex";
-import { TraceloopSpanKindValues } from "@traceloop/ai-semantic-conventions";
+import { TraceloopSpanKindValues } from "@ai-analytic-hub/ai-semantic-conventions";
 import { version } from "../package.json";
 
 export class LlamaIndexInstrumentation extends InstrumentationBase {
   declare protected _config: LlamaIndexInstrumentationConfig;
 
   constructor(config: LlamaIndexInstrumentationConfig = {}) {
-    super("@traceloop/instrumentation-llamaindex", version, config);
+    super("@ai-analytic-hub/instrumentation-llamaindex", version, config);
   }
 
   public override setConfig(config: LlamaIndexInstrumentationConfig = {}) {

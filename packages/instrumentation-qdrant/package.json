@@ -1,11 +1,11 @@
 {
-  "name": "@traceloop/instrumentation-qdrant",
+  "name": "@ai-analytic-hub/instrumentation-qdrant",
   "version": "0.11.6",
   "description": "Qdrant Instrumentation",
   "main": "dist/src/index.js",
   "module": "dist/src/index.mjs",
   "types": "dist/src/index.d.ts",
-  "repository": "traceloop/openllmetry-js",
+  "repository": "ai-analytic-hub/openllmetry-js",
   "scripts": {
     "build": "rollup -c",
     "lint": "eslint .",
@@ -40,7 +40,7 @@
   "dependencies": {
     "@opentelemetry/core": "^1.29.0",
     "@opentelemetry/instrumentation": "^0.56.0",
-    "@traceloop/ai-semantic-conventions": "^0.11.6",
+    "@ai-analytic-hub/ai-semantic-conventions": "^0.11.6",
     "tslib": "^2.8.1"
   },
   "devDependencies": {
@@ -50,6 +50,6 @@
     "@qdrant/js-client-rest": "^1.12.0",
     "uuid": "^10.0.0"
   },
-  "homepage": "https://github.com/traceloop/openllmetry-js/tree/main/packages/instrumentation-qdrant",
+  "homepage": "https://github.com/ai-analytic-hub/openllmetry-js/tree/main/packages/instrumentation-qdrant",
   "gitHead": "ef1e70d6037f7b5c061056ef2be16e3f55f02ed5"
 }

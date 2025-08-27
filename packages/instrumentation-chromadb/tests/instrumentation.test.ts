@@ -17,7 +17,7 @@
 // import { context } from "@opentelemetry/api";
 // import { AsyncHooksContextManager } from "@opentelemetry/context-async-hooks";
 // import { ChromaDBInstrumentation } from "../src/instrumentation";
-// import { EventAttributes, Events } from "@traceloop/ai-semantic-conventions";
+// import { EventAttributes, Events } from "@ai-analytic-hub/ai-semantic-conventions";
 // import {
 //   BasicTracerProvider,
 //   InMemorySpanExporter,

@@ -33,14 +33,14 @@ import {
   CONTEXT_KEY_ALLOW_TRACE_CONTENT,
   LLMRequestTypeValues,
   SpanAttributes,
-} from "@traceloop/ai-semantic-conventions";
+} from "@ai-analytic-hub/ai-semantic-conventions";
 import { version } from "../package.json";
 
 export class BedrockInstrumentation extends InstrumentationBase {
   declare protected _config: BedrockInstrumentationConfig;
 
   constructor(config: BedrockInstrumentationConfig = {}) {
-    super("@traceloop/instrumentation-bedrock", version, config);
+    super("@ai-analytic-hub/instrumentation-bedrock", version, config);
   }
 
   public override setConfig(config: BedrockInstrumentationConfig = {}) {

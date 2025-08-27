@@ -24,7 +24,7 @@ import {
   SimpleSpanProcessor,
 } from "@opentelemetry/sdk-trace-base";
 import * as cohereModule from "cohere-ai";
-import { SpanAttributes } from "@traceloop/ai-semantic-conventions";
+import { SpanAttributes } from "@ai-analytic-hub/ai-semantic-conventions";
 
 import { Polly, setupMocha as setupPolly } from "@pollyjs/core";
 import FetchAdapter from "@pollyjs/adapter-fetch";

@@ -25,13 +25,13 @@ import {
 import {
   SpanAttributes,
   EventAttributes,
-} from "@traceloop/ai-semantic-conventions";
+} from "@ai-analytic-hub/ai-semantic-conventions";
 import { version } from "../package.json";
 import { PineconeInstrumentationConfig } from "./types";
 
 export class PineconeInstrumentation extends InstrumentationBase {
   constructor(config: PineconeInstrumentationConfig = {}) {
-    super("@traceloop/instrumentation-pinecone", version, config);
+    super("@ai-analytic-hub/instrumentation-pinecone", version, config);
   }
 
   public override setConfig(config: PineconeInstrumentationConfig = {}) {

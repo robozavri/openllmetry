@@ -18,7 +18,7 @@ import {
   InstrumentationModuleDefinition,
   InstrumentationNodeModuleDefinition,
 } from "@opentelemetry/instrumentation";
-import { CONTEXT_KEY_ALLOW_TRACE_CONTENT } from "@traceloop/ai-semantic-conventions";
+import { CONTEXT_KEY_ALLOW_TRACE_CONTENT } from "@ai-analytic-hub/ai-semantic-conventions";
 import { LangChainInstrumentationConfig } from "./types";
 import { taskWrapper, workflowWrapper } from "./utils";
 import type * as ChainsModule from "langchain/chains";
@@ -32,7 +32,7 @@ export class LangChainInstrumentation extends InstrumentationBase {
   declare protected _config: LangChainInstrumentationConfig;
 
   constructor(config: LangChainInstrumentationConfig = {}) {
-    super("@traceloop/instrumentation-langchain", version, config);
+    super("@ai-analytic-hub/instrumentation-langchain", version, config);
   }
 
   public manuallyInstrument({

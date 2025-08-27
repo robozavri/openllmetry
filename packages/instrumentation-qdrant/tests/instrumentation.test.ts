@@ -24,7 +24,7 @@ import {
 } from "@opentelemetry/sdk-trace-base";
 import type * as qdrant_types from "@qdrant/js-client-rest";
 import * as assert from "assert";
-import { SpanAttributes } from "@traceloop/ai-semantic-conventions";
+import { SpanAttributes } from "@ai-analytic-hub/ai-semantic-conventions";
 import { v4 as uuidv4 } from "uuid";
 
 const COLLECTION_NAME = uuidv4();

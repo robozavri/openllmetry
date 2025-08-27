@@ -13,7 +13,7 @@ import {
 } from "@opentelemetry/api";
 import { safeExecuteInTheMiddle } from "@opentelemetry/instrumentation";
 
-import { SpanAttributes } from "@traceloop/ai-semantic-conventions";
+import { SpanAttributes } from "@ai-analytic-hub/ai-semantic-conventions";
 
 import { LlamaIndexInstrumentationConfig } from "./types";
 import { shouldSendPrompts, llmGeneratorWrapper } from "./utils";

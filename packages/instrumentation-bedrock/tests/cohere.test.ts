@@ -24,7 +24,7 @@ import {
   SimpleSpanProcessor,
 } from "@opentelemetry/sdk-trace-base";
 import * as bedrockModule from "@aws-sdk/client-bedrock-runtime";
-import { SpanAttributes } from "@traceloop/ai-semantic-conventions";
+import { SpanAttributes } from "@ai-analytic-hub/ai-semantic-conventions";
 
 import { Polly, setupMocha as setupPolly } from "@pollyjs/core";
 import NodeHttpAdapter from "@pollyjs/adapter-node-http";

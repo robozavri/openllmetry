@@ -8,7 +8,7 @@ import {
   TraceloopSpanKindValues,
   SpanAttributes,
   CONTEXT_KEY_ALLOW_TRACE_CONTENT,
-} from "@traceloop/ai-semantic-conventions";
+} from "@ai-analytic-hub/ai-semantic-conventions";
 
 export const shouldSendPrompts = (config: LlamaIndexInstrumentationConfig) => {
   const contextShouldSendPrompts = context
