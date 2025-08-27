@@ -77,7 +77,7 @@
     "@types/uuid": "^9.0.8",
     "chromadb": "^1.9.4",
     "cohere-ai": "^7.15.0",
-    "esbuild": "^0.24.0",
+    "esbuild": "^0.25.9",
     "langchain": "^0.3.7",
     "llamaindex": "^0.8.28",
     "openai": "^4.76.2",
