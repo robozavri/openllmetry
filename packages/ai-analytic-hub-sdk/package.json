@@ -80,7 +80,7 @@
     "esbuild": "^0.24.0",
     "langchain": "^0.3.7",
     "llamaindex": "^0.8.28",
-    "openai": "^4.76.2",
+    "openai": "^5.16.0",
     "ts-mocha": "^10.0.0"
   }
 }
