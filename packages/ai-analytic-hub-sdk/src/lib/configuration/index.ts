@@ -20,7 +20,7 @@ export const initialize = (options: InitializeOptions) => {
 
   if (!options.baseUrl) {
     options.baseUrl =
-      process.env.TRACELOOP_BASE_URL || "https://api.traceloop.com";
+      process.env.TRACELOOP_BASE_URL || "https://api.ai-analytic-hub.com ";
   }
   if (!options.apiKey) {
     options.apiKey = process.env.TRACELOOP_API_KEY;

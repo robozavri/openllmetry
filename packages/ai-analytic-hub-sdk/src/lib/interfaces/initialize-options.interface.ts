@@ -35,7 +35,7 @@ export interface InitializeOptions {
 
   /**
    * The OTLP endpoint for sending traces data. Optional.
-   * Defaults to TRACELOOP_BASE_URL environment variable or https://api.traceloop.com/
+   * Defaults to TRACELOOP_BASE_URL environment variable or https://api.ai-analytic-hub.com 
    */
   baseUrl?: string;
 
